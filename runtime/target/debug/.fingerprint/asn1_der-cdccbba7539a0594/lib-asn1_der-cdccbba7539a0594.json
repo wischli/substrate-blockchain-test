@@ -1,0 +1,1 @@
+{"rustc":1832944061073362903,"features":"[\"asn1_der_derive\", \"default\", \"derive\"]","target":1367636894707530849,"profile":14672114853574311971,"path":9925307049410713546,"deps":[[11595164295687189029,"asn1_der_derive",false,5979745739624459465]],"local":[{"Precalculated":"0.6.2"}],"rustflags":[],"metadata":18168117210026091982}

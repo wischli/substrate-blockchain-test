@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/William/dev/rust/substrate-blockchain-test/substrate-test/runtime/target/debug/build/typenum-de994b928e6c9d37/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/William/dev/rust/substrate-blockchain-test/substrate-test/runtime/target/debug/build/typenum-de994b928e6c9d37/out/op.rs
