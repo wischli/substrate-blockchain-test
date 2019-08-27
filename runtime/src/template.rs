@@ -1,6 +1,8 @@
 use support::{decl_module, decl_storage, decl_event, StorageValue, dispatch::Result, ensure};
 use system::ensure_signed;
 
+const INIT_VAL: u64 = 42;
+
 /// The module's configuration trait.
 pub trait Trait: system::Trait {
 	type Event: From<Event<Self>> + Into<<Self as system::Trait>::Event>;
@@ -8,7 +10,7 @@ pub trait Trait: system::Trait {
 
 decl_storage! {
 	trait Store for Module<T: Trait> as TemplateModule {
-        Value get(get_value) config(): u64 = 42;
+        Value get(get_value) config(): u64 = INIT_VAL;
 	}
 }
 
@@ -116,27 +118,29 @@ mod tests {
 	#[test]
 	fn set_value_works() {
 		with_externalities(&mut new_test_ext(), || {
-			assert_ok!(Value::set_value(1, 42));
 			assert_ok!(Value::set_value(1, 0));
-			assert_eq!(Value::set_value(1, 42), Some(42));
+            let new_value = Value::get_value();
+			assert_eq!(new_value, 0);
 		});
 	}
 	#[test]
 	fn increase_value_works() {
 		with_externalities(&mut new_test_ext(), || {
 			let inc_value = 1337;
-			Value::set_value(1, 42);
+			Value::set_value(1, INIT_VAL);
 			assert_ok!(Value::increase_value(1, inc_value));
-			assert_eq!(Value::increase_value(1, inc_value), Some(42 + inc_value));
+            let new_value = Value::get_value();
+			assert_eq!(new_value, INIT_VAL + inc_value);
 		});
 	}
 	#[test]
 	fn decrease_value_works() {
 		with_externalities(&mut new_test_ext(), || {
 			let dec_value = 12;
-			Value::set_value(1, 42);
+			Value::set_value(1, INIT_VAL);
 			assert_ok!(Value::decrease_value(1, dec_value));
-			assert_eq!(Value::decrease_value(1, dec_value), Some(42 - dec_value));
+            let new_value = Value::get_value();
+			assert_eq!(new_value, INIT_VAL - dec_value);
 		});
 	}
 }
