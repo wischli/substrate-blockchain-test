@@ -1,0 +1,10 @@
+/Users/William/dev/rust/substrate-blockchain-test/substrate-test/runtime/wasm/target/wasm32-unknown-unknown/release/deps/srml_staking-1ac5aecf1374962d.rmeta: /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/lib.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/mock.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/tests.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/phragmen.rs
+
+/Users/William/dev/rust/substrate-blockchain-test/substrate-test/runtime/wasm/target/wasm32-unknown-unknown/release/deps/libsrml_staking-1ac5aecf1374962d.rlib: /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/lib.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/mock.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/tests.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/phragmen.rs
+
+/Users/William/dev/rust/substrate-blockchain-test/substrate-test/runtime/wasm/target/wasm32-unknown-unknown/release/deps/srml_staking-1ac5aecf1374962d.d: /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/lib.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/mock.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/tests.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/phragmen.rs
+
+/Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/lib.rs:
+/Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/mock.rs:
+/Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/tests.rs:
+/Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/staking/src/phragmen.rs:

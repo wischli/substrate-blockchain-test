@@ -1,0 +1,1 @@
+{"rustc":11454376871203022980,"features":"[]","target":7394280565912280891,"profile":10515832472908933917,"path":6533732676705623792,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"wasm32-unknown-unknown/release/.fingerprint/rustc-hex-74e311e8cd27a9c3/dep-lib-rustc_hex-74e311e8cd27a9c3"}}],"rustflags":["-C","link-arg=--export-table"],"metadata":11278451656052502128}

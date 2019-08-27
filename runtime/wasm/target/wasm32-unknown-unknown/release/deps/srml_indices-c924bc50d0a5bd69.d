@@ -1,0 +1,10 @@
+/Users/William/dev/rust/substrate-blockchain-test/substrate-test/runtime/wasm/target/wasm32-unknown-unknown/release/deps/srml_indices-c924bc50d0a5bd69.rmeta: /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/lib.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/mock.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/address.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/tests.rs
+
+/Users/William/dev/rust/substrate-blockchain-test/substrate-test/runtime/wasm/target/wasm32-unknown-unknown/release/deps/libsrml_indices-c924bc50d0a5bd69.rlib: /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/lib.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/mock.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/address.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/tests.rs
+
+/Users/William/dev/rust/substrate-blockchain-test/substrate-test/runtime/wasm/target/wasm32-unknown-unknown/release/deps/srml_indices-c924bc50d0a5bd69.d: /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/lib.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/mock.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/address.rs /Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/tests.rs
+
+/Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/lib.rs:
+/Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/mock.rs:
+/Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/address.rs:
+/Users/William/.cargo/git/checkouts/substrate-7e08433d4c370a21/fc206f3/srml/indices/src/tests.rs:
